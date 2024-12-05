@@ -6,7 +6,7 @@
 
 Link to logistic growth repo:
 
-
+https://github.com/dusty-saxophone/logistic_growth
 
 ## Instructions
 
