@@ -1,6 +1,12 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+## Answers
+
+### Questions 1 - 3
+
+Link to logistic growth repo:
+
+
 
 ## Instructions
 
