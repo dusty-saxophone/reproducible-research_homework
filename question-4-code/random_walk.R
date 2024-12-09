@@ -53,3 +53,17 @@ plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   ylab("y-coordinate")
 
 grid.arrange(plot1, plot2, ncol=2)
+
+
+### Saving image
+
+library(ragg)
+
+agg_png("Graphs/random_walks.png", 
+        width = 20, 
+        height = 10, 
+        units = "cm", 
+        res = 300, 
+        scaling = 1)
+grid.arrange(plot1, plot2, ncol=2)
+dev.off()
