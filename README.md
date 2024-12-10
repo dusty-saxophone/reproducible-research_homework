@@ -100,6 +100,12 @@ ln\alpha = 7.0748 (p = 2.28 \times 10^{-10})
 \end{equation}
 ```
 
+<p align="center">
+
+p = 2.28 x 10<sup>-10</sup>
+
+<p>
+
 And:
 
 ``` math
@@ -114,7 +120,13 @@ m = \beta
 \end{equation}
 ```
 
-As both p-values are \< 0.05 the estimates for both parameters are statistically significant. The parameters are also exactly the same as those listed for dsDNA in table 2 of the paper (<https://doi.org/10.1128/jvi.00362-14>) - allometric exponent = 1.52 and scaling factor = 1,182.
+<p align="center">
+
+p = 6.44 x 10<sup>-10</sup>
+
+<p>
+
+As both p-values are \< 0.05 the estimates for both parameters are statistically significant. The parameters are also exactly the same as those listed for dsDNA in table 2 of the paper (<https://doi.org/10.1128/jvi.00362-14>) - **allometric exponent = 1.52** and **scaling factor = 1,182**.
 
 #### 5.4 - Figure
 
