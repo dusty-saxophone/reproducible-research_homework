@@ -80,6 +80,40 @@ y = b + m \cdot x
 \end{equation}
 ```
 
+Therefore using results from the linear model:
+
+``` math
+\begin{equation}
+b = log\alpha
+\end{equation}
+```
+
+``` math
+\begin{equation}
+log\aplha = 7.0748
+\end{equation}
+```
+
+``` math
+\begin{equation}
+\alpha = 1181.807 = 1182
+\end{equation}
+```
+
+And:
+
+``` math
+\begin{equation}
+m = \beta
+\end{equation}
+```
+
+``` math
+\begin{equation}
+\beta = 1.5152 = 1.52
+\end{equation}
+```
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points. First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the \# INSERT ANSWERS HERE \# section above in the **README.md** file of your forked repository.
