@@ -58,9 +58,9 @@ Transformed data:
 
 ``` math
 \begin{equation}
-V = \alpha L^{\beta}
-logV = log\alpha + logL^{\beta}
-logV = log\alpha + \beta \cdot logL
+V = \alpha L^{\beta} //
+logV = log\alpha + logL^{\beta} //
+logV = log\alpha + \beta \cdot logL //
 y = b + m \cdot x
 \end{equation}
 ```
