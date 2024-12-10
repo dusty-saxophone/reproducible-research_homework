@@ -90,7 +90,7 @@ b = log\alpha
 
 ``` math
 \begin{equation}
-log\aplha = 7.0748
+log\alpha = 7.0748
 \end{equation}
 ```
 
