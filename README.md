@@ -64,13 +64,13 @@ V = \alpha L^{\beta}
 
 ``` math
 \begin{equation}
-logV = log\alpha + logL^{\beta}
+lnV = ln\alpha + lnL^{\beta}
 \end{equation}
 ```
 
 ``` math
 \begin{equation}
-logV = log\alpha + \beta \cdot logL
+lnV = ln\alpha + \beta \cdot lnL
 \end{equation}
 ```
 
@@ -84,13 +84,13 @@ Therefore using results from the linear model:
 
 ``` math
 \begin{equation}
-b = log\alpha
+b = ln\alpha
 \end{equation}
 ```
 
 ``` math
 \begin{equation}
-log\alpha = 7.0748
+ln\alpha = 7.0748 (p = 2.28 \times 10^{-10})
 \end{equation}
 ```
 
@@ -110,7 +110,43 @@ m = \beta
 
 ``` math
 \begin{equation}
-\beta = 1.5152 = 1.52
+\beta = 1.5152 = 1.52 (p = 6.44 \times 10^{-10})
+\end{equation}
+```
+
+As both p-values are \< 0.05 the estimates for both parameters are statistically significant. The parameters are also exactly the same as those listed for dsDNA in table 2 of the paper (<https://doi.org/10.1128/jvi.00362-14>) - allometric exponent = 1.52 and scaling factor = 1,182.
+
+#### 5.4 - Figure
+
+Code for figure:
+
+<https://github.com/dusty-saxophone/reproducible-research_homework/blob/main/genome_length_vs_virion_volume.R>
+
+![](https://github.com/dusty-saxophone/reproducible-research_homework/blob/main/question-5-data/genome_length_vs_virion_volume.png)
+
+#### 5.5 - Estimation using known parameters
+
+``` math
+\begin{equation}
+V = \alpha L^{\beta}
+\end{equation}
+```
+
+``` math
+\begin{equation}
+V = 1182 \times 300^{1.52}
+\end{equation}
+```
+
+``` math
+\begin{equation}
+V = 6,884,015
+\end{equation}
+```
+
+``` math
+\begin{equation}
+lnV = 15.7
 \end{equation}
 ```
 

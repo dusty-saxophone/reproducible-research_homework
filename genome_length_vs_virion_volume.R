@@ -45,3 +45,25 @@ agg_png("question-5-data/genome_length_vs_virion_volume.png",
         scaling = 1)
 genome_length_vs_virion_volume
 dev.off()
+
+### Transformed data
+
+transformed_data <- ggplot(data = log_data,
+                           aes(x = log_genome_length,
+                               y = log_virion_volume)) +
+  geom_point() +
+  labs(x = "log[Genome length (kb)]",
+       y = "log[Virion volume (nm3)]") +
+    theme_bw() +
+    theme(axis.title.x = element_text(face = "bold"),
+          axis.title.y = element_text(face = "bold"))
+
+agg_png("question-5-data/transformed_data.png", 
+        width = 10, 
+        height = 10, 
+        units = "cm", 
+        res = 300, 
+        scaling = 1)
+transformed_data
+dev.off()
+
