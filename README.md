@@ -99,12 +99,9 @@ ln\alpha = 7.0748 (p = 2.28 \times 10^{-10})
 \alpha = 1181.807 = 1182
 \end{equation}
 ```
-
-<p align="center">
-
+\begin{center}
 p = 2.28 x 10<sup>-10</sup>
-
-<p>
+\end{center}
 
 And:
 
@@ -119,12 +116,9 @@ m = \beta
 \beta = 1.5152 = 1.52 (p = 6.44 \times 10^{-10})
 \end{equation}
 ```
-
-<p align="center">
-
+\begin{center}
 p = 6.44 x 10<sup>-10</sup>
-
-<p>
+\end{center}
 
 As both p-values are \< 0.05 the estimates for both parameters are statistically significant. The parameters are also exactly the same as those listed for dsDNA in table 2 of the paper (<https://doi.org/10.1128/jvi.00362-14>) - **allometric exponent = 1.52** and **scaling factor = 1,182**.
 
